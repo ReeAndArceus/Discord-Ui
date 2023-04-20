@@ -16,7 +16,7 @@ end)
 
 Chann1:Seperator()
 
-Chann1:Toggle("Auto Farm",false, function(value)
+Chann1:Toggle("Auto Farm for Wall Smash Sim",false, function(value)
 _G.ReeisTopG = true
 if value then
     while _G.ReeisTopG do
