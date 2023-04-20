@@ -38,8 +38,10 @@ local drop = Chann1:Dropdown("Still working on autofarm",{"Option 1","Option 2",
 print(bool)
 end)
 
-Chann1:Label("All Scripts Here Will Be Made By ME.")
+Chann1:Label("All Scripts Here Will Be Made By ME And Puuror.")
 
 Chann1:Label("Credits to PUUROR for helping me with the auto farm toggle.") 
 
-Chann1:Label("It took 2 days lol `i didn't sleep for hours =[`")
+Chann1:Label("It took 2 days lol `i didn't sleep for hours =[`"
+
+Chann1:Label("Puuror made the auto hatch and option. He takes full credit for it
