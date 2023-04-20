@@ -16,6 +16,22 @@ end)
 
 Chann1:Seperator()
 
+Chann1:Toggle(" Auto Punch",false, function()
+_G.reeisthebest = true
+
+while _G.reeisthebest do
+
+    local reeistopg = workspace.Box["1"].Model
+
+    local replicated = game:GetService("ReplicatedStorage")
+
+    replicated.Events.Box:FireServer(reeistopg)
+
+    wait(0.1)
+
+end
+end) 
+
 Chann1:Toggle("Auto Farm for Wall Smash Sim",false, function(value)
 if game.PlaceId == 12980045478 then
 _G.ReeisTopG = true
