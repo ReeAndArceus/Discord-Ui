@@ -17,6 +17,7 @@ end)
 Chann1:Seperator()
 
 Chann1:Toggle("Auto Farm for Wall Smash Sim",false, function(value)
+if game.PlaceId == 12980045478 then
 _G.ReeisTopG = true
 if value then
     while _G.ReeisTopG do
