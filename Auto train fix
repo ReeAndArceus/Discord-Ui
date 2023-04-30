@@ -18,7 +18,7 @@ Chann1:Seperator()
 Chann1:Toggle("Auto Farm BABFT",false, function(value)
 _G.AutoFarm = True
 if value then
- while _G,AutoFarm do
+ while _G.AutoFarm do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57.2169647, 19.9586773, 1184.10681, -0.995562434, 0.00828330778, 0.0937381089, -1.20700498e-08, 0.996118367, -0.0880236179, -0.094103381, -0.0876330063, -0.991698027)
 wait(2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-59.2205772, 125.171898, 1784.7074, -0.999980628, 0.000572738878, -0.00619962672, 9.31185706e-09, 0.995759964, 0.0919895917, 0.00622602599, 0.091987811, -0.995740652)
