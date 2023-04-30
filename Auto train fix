@@ -15,6 +15,40 @@ end)
 
 Chann1:Seperator()
 
+Chann1:Toggle("Auto Farm BABFT",false, function(value)
+_G.AutoFarm = True
+if value then
+ while _G,AutoFarm do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-57.2169647, 19.9586773, 1184.10681, -0.995562434, 0.00828330778, 0.0937381089, -1.20700498e-08, 0.996118367, -0.0880236179, -0.094103381, -0.0876330063, -0.991698027)
+wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-59.2205772, 125.171898, 1784.7074, -0.999980628, 0.000572738878, -0.00619962672, 9.31185706e-09, 0.995759964, 0.0919895917, 0.00622602599, 0.091987811, -0.995740652)
+wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-64.0884705, 131.341934, 3308.56323, -0.99968487, -0.00580837065, 0.0244216397, -6.98709135e-09, 0.97286284, 0.231382534, -0.0251028612, 0.231309623, -0.972556293)
+wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-47.0142479, 97.5086594, 4228.53662, -0.993621826, -0.00716161821, 0.112536155, -1.10904947e-08, 0.997981191, 0.063509807, -0.1127638, 0.0631047264, -0.991615891)
+wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-32.5574417, 129.158051, 4885.08057, -0.999917567, 0.0031941107, -0.0124338791, -6.21390539e-09, 0.968552411, 0.24880971, 0.0128375888, 0.248789206, -0.9684726)
+wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-47.8369904, 65.5408936, 5722.93799, -0.999924421, -2.03422533e-05, 0.0122946203, -8.61576765e-09, 0.999998629, 0.0016538623, -0.012294637, 0.00165373727, -0.99992305)
+wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68.6859512, 155.740417, 6466.83984, -0.999016583, 0.00591537496, -0.043941699, -6.93474345e-09, 0.991060197, 0.133415416, 0.0443380699, 0.133284211, -0.990085602)
+wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68.6859512, 155.740417, 6466.83984, -0.999016583, 0.00591537496, -0.043941699, -6.93474345e-09, 0.991060197, 0.133415416, 0.0443380699, 0.133284211, -0.990085602)
+wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-56.78685, 86.7154922, 8007.93408, -0.999279141, -0.000305626425, -0.0379613079, 8.52682991e-09, 0.999967575, -0.00805096142, 0.037962541, -0.00804515835, -0.999246776)
+wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-46.0951195, 26.6756344, 8451.50781, -0.999299586, -0.00792591646, 0.0365715399, -1.16107284e-08, 0.977311671, 0.211806208, -0.0374205522, 0.211657867, -0.976627171)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-59.8625031, -314.603333, 8697.93164, -0.998417377, -0.00957202353, 0.0554181263, 1.26332038e-08, 0.985408902, 0.170203686, -0.0562387109, 0.169934317, -0.983849347)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.4930916, -362.264465, 9489.94922, 0.137631789, 0.309994131, -0.940723717, -7.18666637e-09, 0.949762166, 0.312972546, 0.990483463, -0.0430749655, 0.130717471)
+wait(10)
+end
+end
+if not value then
+ _G.AutoFarm = false
+ end
+end)
 Chann1:Toggle("Auto Train",false, function(value)
 _G.puuroristopg = true
 if value then
@@ -52,6 +86,8 @@ local drop = Chann1:Dropdown("Still working on autofarm",{"Option 1","Option 2",
 print(bool)
 end)
 
-Chann1:Label("All Scripts Here Will Be Made By ME.")
+Chann1:Label("All Scripts Here Will Be Made By ME and puuror.")
 
-Chann1:Label("Credits to PUUROR for helping me with the auto farm toggle. It tooks 2 days lol") 
+Chann1:Label("Credits to PUUROR for helping me with the auto farm toggle.") 
+
+Chann1:Label("Created BABFT myself lmao")
