@@ -17,6 +17,7 @@ end)
 Chann1:Seperator()
 
 Chann1:Toggle("Auto Farm BABFT",false, function(value)
+--[[
 _G.AutoFarm = True
 if value then
  while _G.AutoFarm do
@@ -49,6 +50,7 @@ end
 if not value then
  _G.AutoFarm = false
  end
+ ]]
 end)
 Chann1:Toggle("Auto Train",false, function(value)
 _G.puuroristopg = true
