@@ -50,7 +50,7 @@ end
 if not value then
  _G.AutoFarm = false
  end
- ]]
+ --]]
 end)
 Chann1:Toggle("Auto Train",false, function(value)
 _G.puuroristopg = true
